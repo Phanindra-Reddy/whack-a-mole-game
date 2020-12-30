@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+.score-time{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+.mole{
+    background-image: url('./mole.jpg');
+    background-size: cover;
+}
